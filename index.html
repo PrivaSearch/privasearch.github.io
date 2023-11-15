@@ -1,7 +1,8 @@
-<head></head>
+<!DOCTYPE HTML>
+<head>
 <body>
   <style>
-:root {
+    :root {
   --body-color: 48 48 58;
   
   --font-color: 255 255 255;
@@ -332,8 +333,8 @@ button, a, input {
   }
   
   #phone {
-    height: 100%;
-    display: auto;
+    height: 100vh;
+    display: flex;
     width: 100%;
     margin: 0px auto;
   }
@@ -344,8 +345,8 @@ button, a, input {
   }
 }
   </style>
-  <div id="phone">
-    <div class="fancy-scrollbar">
+<div id="phone">
+  <div id="main-wrapper" class="fancy-scrollbar">
     <div id="main">
       <div id="content">
         <div id="links-container">
@@ -355,7 +356,7 @@ button, a, input {
           <a href="#">About</a>
         </div>
         <div id="header-container">
-          <img id="logo" src="" alt="Google Doodle" />
+          <img id="logo" src="https://assets.codepen.io/1468070/Google+Doodle.png" alt="Google Doodle" />
         </div>
         <div id="search-container">
           <div id="search-input-container">
@@ -445,4 +446,5 @@ button, a, input {
       </div>
     </div>
   </div>
-</div></body>
+</div>
+</body></head>
