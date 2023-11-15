@@ -361,7 +361,10 @@ button, a, input {
         <div id="search-container">
           <div id="search-input-container">
             <img src="https://assets.codepen.io/1468070/Google+G+Icon.png" alt="" />
-            <input type="text" placeholder="Search anything | Powered with Google | No Tracking" />
+          <form action="https://privasearch.gq/search" method="get">
+  <input type="text" placeholder="Search..." name="q">
+  <input type="submit" value="Search">
+</form>
           </div>
           <button id="mic-button" type="button">
             <i class="fa-regular fa-microphone"></i>
